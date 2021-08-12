@@ -1,4 +1,4 @@
-def caesar_cipher(string="", k=0)
+def caesar_cipher(string, k=0)
   k = k%26
   string = string.to_s
   bytes = string.bytes
@@ -26,8 +26,3 @@ def caesar_cipher(string="", k=0)
   end
   (new_bytes.map { |byte| byte.chr }).join
 end
-
-###################################
-
-string = ""
-puts caesar_cipher(string, -1)
