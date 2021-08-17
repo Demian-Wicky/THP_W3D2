@@ -1,5 +1,3 @@
-# dictionnary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
-
 def word_counter(string, dictionnary)
   string = string.downcase
   h = Hash.new
@@ -11,6 +9,6 @@ def word_counter(string, dictionnary)
 return h
 end
 
-
+# dictionnary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
 # print word_counter("Howdy partner, sit down! How's it going?", dictionnary)
 
