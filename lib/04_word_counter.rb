@@ -1,4 +1,4 @@
-dictionnary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
+# dictionnary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
 
 def word_counter(string, dictionnary)
   string = string.downcase
@@ -12,5 +12,5 @@ return h
 end
 
 
-print word_counter("Howdy partner, sit down! How's it going?", dictionnary)
+# print word_counter("Howdy partner, sit down! How's it going?", dictionnary)
 
