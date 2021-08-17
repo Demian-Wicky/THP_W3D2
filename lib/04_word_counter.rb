@@ -1,11 +1,5 @@
 dictionnary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i", "low", "own", "part", "partner", "sit"]
 
-class Hash
-  def compact
-    delete_if { |k, v| v.nil? }
-  end
-end
-
 def word_counter(string, dictionnary)
   string = string.downcase
   h = Hash.new
@@ -14,7 +8,7 @@ def word_counter(string, dictionnary)
       h[word] = string.scan(/(?=#{word})/).count
     end
   end
-return h.compact
+return h
 end
 
 
